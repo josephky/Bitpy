@@ -1,13 +1,12 @@
+__author__ = 'alexisgallepe and Shlomi Zeltsinger'
+
 import Utils.globals
-import codecs
 import hashlib
-from Utils.dataTypes import *
 from Utils.globals import *
 import time
 from Packets.HeaderParser import HeaderParser
-from Packets.PacketCreator import *
-from Packets.control_messages import *
-from Packets.data_messages import *
+from Packets.control_messages import Verack, Version, GetAddr, Ping, Pong, Addr
+from  Packets.data_messages import GetBlocks, Inv
 from io import BytesIO
 
 class PacketCreator:
@@ -80,6 +79,7 @@ class PacketCreator:
             self.display(message)
 
         elif command.startswith('version'):
+
             version = Version.DecodeVersion(payloadStream)
             message["payload"] = version.get_decoded_info()
             self.display(message)

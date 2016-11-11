@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
@@ -71,8 +71,8 @@
      <widget class="QWidget" name="verticalLayoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>90</x>
-        <y>600</y>
+        <x>115</x>
+        <y>570</y>
         <width>781</width>
         <height>102</height>
        </rect>
@@ -102,9 +102,9 @@
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="QPushButton" name="pushButton_6">
+          <widget class="QPushButton" name="connectBtn">
            <property name="text">
-            <string>PushButton</string>
+            <string>Conncect</string>
            </property>
           </widget>
          </item>
@@ -134,10 +134,10 @@
      <widget class="QPushButton" name="createAddressButton">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>70</y>
+        <x>10</x>
+        <y>71</y>
         <width>117</width>
-        <height>23</height>
+        <height>20</height>
        </rect>
       </property>
       <property name="text">
@@ -157,9 +157,9 @@
      <widget class="QLineEdit" name="privateKeyInsert">
       <property name="geometry">
        <rect>
-        <x>170</x>
+        <x>150</x>
         <y>70</y>
-        <width>211</width>
+        <width>221</width>
         <height>20</height>
        </rect>
       </property>
@@ -170,7 +170,7 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>20</x>
+        <x>10</x>
         <y>40</y>
         <width>361</width>
         <height>20</height>
@@ -253,9 +253,9 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_5">
        <item row="0" column="0">
-        <widget class="QPushButton" name="pushButton_23">
+        <widget class="QPushButton" name="OP_RETURN">
          <property name="text">
-          <string>soon</string>
+          <string>OP_RETURN	</string>
          </property>
         </widget>
        </item>
@@ -299,7 +299,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="clearBtn">
       <property name="geometry">
        <rect>
         <x>650</x>

@@ -1,9 +1,8 @@
-__author__ = 'alexisgallepe'
+__author__ = 'alexisgallepe and Shlomi Zeltsinger'
 
-from Packets.HeaderParser import HeaderParser
 from Packets.PacketCreator import *
-from Packets.control_messages import *
-from Packets.data_messages import *
+from Packets.control_messages import Verack, Version, GetAddr, Ping, Pong, Addr
+from  Packets.data_messages import GetBlocks, Inv
 
 
 import Utils.globals
